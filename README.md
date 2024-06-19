@@ -1,6 +1,6 @@
 # RefAug
 
-This is the code repo for the paper *Learn Beyond The Answer: Training Language Models with Reflection for Mathematical Reasoning*. Our work introduces reflective augmentation, a novel technique that aims at cultivating a deeper understanding of the training problems, so as to enhance performance not only in the standard single-round QA settings but also in more complex scenarios that require reflective augmentation. Please refer to our [paper](http://arxiv.org/abs/2406.12050) for more details!
+This is the code repo for the paper *Learn Beyond The Answer: Training Language Models with Reflection for Mathematical Reasoning*. Our work introduces reflective augmentation, a novel technique that aims at cultivating a deeper understanding of the training problems, so as to enhance performance not only in the standard single-round QA settings but also in more complex scenarios that require reflective thinking. Please refer to our [paper](http://arxiv.org/abs/2406.12050) for more details!
 
 ### Environment
 
@@ -27,8 +27,6 @@ Our models are tested on A100 nodes with CUDA version 11.7 and Python 3.9. Pleas
 - For evaluating **MINT**, check `src/evaluate/mint/eval_mint.py`. After inference, re-run the script with the same arguments will skip inference and directly show the results.
 - For **error analysis** on GSM8k test set, check `src/evaluate/error_analysis.py`.
 - For **contamination test** on GSM8k and MATH, check `src/evaluate/check_overlap.py`
-
-### Citation
 
 ### Citation
 
