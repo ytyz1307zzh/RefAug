@@ -1,0 +1,16 @@
+torch==2.1.1+cu118
+vllm==0.2.4+cu118
+xformers==0.0.23+cu118
+# If choose to upgrade vllm to a newer version, please make sure that the versions of torch and xformers match with vllm.
+
+transformers==4.39.1
+tiktoken
+scipy
+requests
+openai
+flash-attn==2.3.6
+deepspeed==0.14.0
+datasets==2.18.0
+asyncio
+aiohttp
+accelerate==0.21.0
