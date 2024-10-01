@@ -1,5 +1,7 @@
 # RefAug
 
+:tada: **RefAug has been accepted to EMNLP 2024 (main conference)! We have updated the Arxiv paper to the camera-ready version. Check it out!**
+
 This is the code repo for the paper *Learn Beyond The Answer: Training Language Models with Reflection for Mathematical Reasoning*. Our work introduces reflective augmentation, a novel technique that aims at cultivating a deeper understanding of the training problems, so as to enhance performance not only in the standard single-round QA settings but also in more complex scenarios that require reflective thinking. Please refer to our [paper](http://arxiv.org/abs/2406.12050) for more details!
 
 ### Environment
